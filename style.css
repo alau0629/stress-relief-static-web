@@ -1,0 +1,162 @@
+#entire-page{
+  background-image: url(https://images.pexels.com/photos/628281/pexels-photo-628281.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+}
+#header-wrapper{
+  height:100%;
+  width:100%;
+}
+#header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color:rgba(0,0,0,0.4);
+
+  z-index:10;
+  position:fixed;
+  width:100%;
+  top: 0;
+  height:60px;
+
+
+}
+#name-and-image {
+  flex-basis:40%;
+}
+#header-img{
+  width:100%;
+  height:auto;
+  max-width: 60px;
+  vertical-align:middle;
+
+}
+#title {
+  font-family: Papyrus;
+  font-size:30px;
+  color:white;
+}
+
+#nav-div{
+
+  flex-basis:40%;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+li{
+  list-style:none;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight:bold;
+
+}
+#spacer {
+  height:60px;
+
+}
+#selection{
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+
+
+}
+.select-img {
+ height: 300px;
+ width: 300px;
+ object-fit: cover;
+ margin: 20px;
+
+}
+.select-img:hover{
+  opacity:0.7;
+  transition:0.5s;
+}
+.animal-names-container{
+  height:300px;
+  width:100%;
+  max-width: 300px;
+  margin:20px;
+  position:relative;
+  margin-top: -104%;
+
+}
+.animal-name-text{
+
+  opacity: 0;
+  height:100%;
+  width:100%:
+  position: absolute;
+  text-align:center;
+  font-size: 30px;
+
+
+}
+.animal-name-text:hover {
+  opacity: 1;
+  transition:0.5s;
+  font-family:'lobster',cursive;
+  color:white;
+  background-color: rgba(0,0,0,0.6);
+}
+
+
+.animal-select {
+  position:relative;
+  display:inline-block;
+
+  height: auto;
+  width: 340px;
+  margin:20px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius:10%;
+}
+#videos {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+
+}
+.iframeContainer {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius:10%;
+
+
+}
+.iframeContainer iframe {
+  height: 90%;
+  width: 90%;
+
+}
+#jazzAndRelax {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  margin: 5%;
+}
+.iframeContainerJazz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.3);
+  border-radius:10%;
+  height: 1000px;
+  width: 2000px;
+}
+#jazzAndRelaxiFrame {
+  display:block;
+  height: 90%;
+  width: 90%;
+}

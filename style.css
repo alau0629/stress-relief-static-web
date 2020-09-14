@@ -144,8 +144,6 @@ ul {
   display:flex;
   flex-wrap:wrap;
   justify-content:space-around;
-  margin-left: 5%;
-  margin-right: 5%;
   margin-top: 5%;
 }
 .iframeContainerJazz {
